@@ -23,6 +23,3 @@ export const registrationSchema = z
     message: "Пароли не совпадают",
     path: ["confirmPassword"], // путь к полю, к которому относится ошибка
   })
-
-// Создаем тип на основе схемы
-export type RegistrationFormData = z.infer<typeof registrationSchema>
