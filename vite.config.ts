@@ -4,6 +4,7 @@ import tailwindcss from "tailwindcss"
 import autoprefixer from "autoprefixer"
 
 export default defineConfig({
+  base: "/react-form-validation",
   plugins: [react()],
   css: {
     postcss: {
